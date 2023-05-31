@@ -21,7 +21,7 @@ def menu():
 
 def show_contacts(pb: list[dict]):         
     if pb == []:
-        print('Телефонная книга пуста, или файл не открыт!')
+        print('В телефонной книге пусто, или файл не открыт!')
     else:
         for i, contact in enumerate(pb, 1):        
             name = contact.get('name')
